@@ -1,3 +1,0 @@
-FROM tomcat:8.0.20-jre8
-
-COPY target/05-Maven-Devops*.war /usr/local/tomcat/webapps/7-Maven-Devops.war
