@@ -27,16 +27,24 @@
     <finalName>05-Maven-Devops</finalName>
   </build>
 
+  <repository>
+<id>maven-releases</id>
+    <url>http://13.232.60.62:8081/repository/maven-releases/</url>
+  </repository>
+
+
+
+
 
 <distributionManagement>
 
   <repository>
 <id>maven-releases</id>
-    <url>http://13.201.136.14:8081/repository/maven-releases/</url>
+    <url>http://13.232.60.62:8081/repository/maven-releases/</url>
   </repository>
   <snapshotRepository>
 <id>maven-snapshots</id>
-    <url>http://13.201.136.14:8081/repository/maven-snapshots/</url>
+    <url>http://13.232.60.62:8081/repository/maven-snapshots/</url>
     
   </snapshotRepository>
 
@@ -46,7 +54,6 @@
 
   
 </distributionManagement>
-
 
 
 
